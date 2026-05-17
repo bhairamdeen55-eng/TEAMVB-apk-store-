@@ -101,7 +101,7 @@ export default function EditAppPage({ params }: { params: { id: string } }) {
 
   return (
     <AdminGuard>
-      <main className="p-6">
+      <main className="min-h-screen p-6">
         <div className="max-w-2xl mx-auto">
           <h1 className="text-3xl font-bold mb-6">Edit APK</h1>
 
@@ -150,4 +150,4 @@ export default function EditAppPage({ params }: { params: { id: string } }) {
       </main>
     </AdminGuard>
   );
-    }
+}
